@@ -74,7 +74,7 @@ function Chat({ chats }) {
   }, [socket, chat]);
 
   return (
-    <div className="chat">
+    <div className="chat" style={{display:"none"}}>
       <div className="messages">
         <h1>Messages</h1>
         {chats?.map((c) => (

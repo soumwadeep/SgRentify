@@ -20,12 +20,15 @@ Welcome to Sg Rentify, a full-stack real estate application built with the MERN 
 - Context API
 - React Router Dom
 
+### Storage:
+
+- Cloudinary
+
 ### Backend:
 
 - Node.js
 - Express
 - Prisma
-- Socket.io
 
 ### Database:
 
@@ -53,10 +56,6 @@ Install dependencies for the client:
 cd client
 npm install
 
-Install dependencies for the socket server:
-
-cd socket
-npm install
 
 ## Usage
 
@@ -65,10 +64,6 @@ Start the backend server:
 cd api
 node app.js
 
-Start the socket server:
-
-cd socket
-node app.js
 
 Start the frontend server:
 
@@ -83,6 +78,7 @@ Open your browser and navigate to [http://localhost:5173/](http://localhost:5173
 Create a `.env` file in the `api` directory and add the following environment variables:
 
 DATABASE_URL="Your Mongo Url"
+CLIENT_URL = "http://localhost:5173"
 JWT_SECRET_KEY="Any Random Key"
 CLIENT_URL="http://localhost:5173/"
 
