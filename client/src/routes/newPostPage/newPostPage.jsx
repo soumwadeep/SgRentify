@@ -164,7 +164,7 @@ function NewPostPage() {
         <UploadWidget
           uwConfig={{
             multiple: true,
-            cloudName: "sgestate",
+            cloudName: "dbx7xhahm",
             uploadPreset: "estate",
             folder: "posts",
           }}
