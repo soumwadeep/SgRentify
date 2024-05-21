@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "http://localhost:8700/api",
+  baseURL: "https://sgrentify.onrender.com/api",
   withCredentials: true,
 });
 
